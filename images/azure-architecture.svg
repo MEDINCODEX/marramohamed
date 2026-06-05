@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 500" width="100%" height="100%">
+  <style>
+    .text-title { font-family: 'Inter', sans-serif; font-weight: 900; font-size: 14px; fill: #050505; text-transform: uppercase; letter-spacing: 0.1em; }
+    .text-subtitle { font-family: 'Inter', sans-serif; font-weight: 700; font-size: 11px; fill: #050505; letter-spacing: 0.05em; text-transform: uppercase; }
+    .text-body { font-family: monospace; font-size: 11px; fill: #333333; }
+    .text-accent { font-family: monospace; font-size: 10px; fill: #666666; text-transform: uppercase; }
+    .text-white { fill: #F4F4F4; }
+    
+    .box { fill: transparent; stroke: #050505; stroke-width: 1.5; }
+    .box-filled { fill: #050505; stroke: #050505; stroke-width: 1.5; }
+    .box-light { fill: rgba(5,5,5,0.02); stroke: #050505; stroke-width: 1; stroke-dasharray: 4 4; }
+    
+    .line { stroke: #050505; stroke-width: 1.5; fill: none; }
+    .line-dashed { stroke: #050505; stroke-width: 1.5; stroke-dasharray: 6 6; fill: none; opacity: 0.8; }
+  </style>
+
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#050505" />
+    </marker>
+    <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#050505" opacity="0.1" />
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="500" fill="url(#grid)" />
+
+  <text x="40" y="40" class="text-title" font-size="18px">RETAIL DATA PLATFORM MODERNIZATION</text>
+  <text x="40" y="60" class="text-accent" fill="#050505">END-TO-END AZURE DATA ENGINEERING PIPELINE</text>
+  <line x1="40" y1="75" x2="420" y2="75" class="line" stroke-width="2" />
+
+  <text x="40" y="460" class="text-subtitle">01 / SOURCES</text>
+  
+  <rect x="40" y="140" width="140" height="70" class="box" />
+  <rect x="40" y="140" width="140" height="25" class="box-filled" />
+  <text x="50" y="157" class="text-title text-white">AZURE SQL</text>
+  <text x="50" y="190" class="text-body" font-weight="bold">Transactions</text>
+
+  <rect x="40" y="270" width="140" height="70" class="box" />
+  <rect x="40" y="270" width="140" height="25" class="box-filled" />
+  <text x="50" y="287" class="text-title text-white">GITHUB API</text>
+  <text x="50" y="320" class="text-body" font-weight="bold">JSON Data</text>
+
+  <text x="240" y="460" class="text-subtitle">02 / ORCHESTRATION</text>
+
+  <rect x="240" y="205" width="140" height="70" class="box" />
+  <rect x="240" y="205" width="140" height="25" class="box-filled" />
+  <text x="250" y="222" class="text-title text-white">DATA FACTORY</text>
+  <text x="250" y="255" class="text-body">Pipeline Trigger</text>
+
+  <path d="M 180 175 C 210 175, 210 240, 235 240" class="line-dashed" marker-end="url(#arrow)" />
+  <path d="M 180 305 C 210 305, 210 240, 235 240" class="line-dashed" marker-end="url(#arrow)" />
+
+  <text x="440" y="460" class="text-subtitle">03 / STORAGE</text>
+
+  <rect x="440" y="205" width="140" height="70" class="box" />
+  <rect x="440" y="205" width="140" height="25" class="box-filled" />
+  <text x="450" y="222" class="text-title text-white">ADLS GEN2</text>
+  <text x="450" y="255" class="text-body">Data Lake Storage</text>
+
+  <path d="M 380 240 L 435 240" class="line-dashed" marker-end="url(#arrow)" />
+
+  <text x="640" y="460" class="text-subtitle">04 / MEDALLION</text>
+
+  <rect x="640" y="100" width="140" height="70" class="box" />
+  <rect x="640" y="100" width="140" height="25" class="box-light" />
+  <text x="650" y="117" class="text-title">BRONZE</text>
+  <text x="650" y="150" class="text-body">Données brutes</text>
+
+  <rect x="640" y="205" width="140" height="70" class="box" />
+  <rect x="640" y="205" width="140" height="25" class="box-light" />
+  <text x="650" y="222" class="text-title">SILVER</text>
+  <text x="650" y="255" class="text-body">Données nettoyées</text>
+
+  <rect x="640" y="310" width="140" height="70" class="box" />
+  <rect x="640" y="310" width="140" height="25" class="box-light" />
+  <text x="650" y="327" class="text-title">GOLD</text>
+  <text x="650" y="360" class="text-body">Données agrégées</text>
+
+  <path d="M 580 240 C 610 240, 610 135, 635 135" class="line-dashed" marker-end="url(#arrow)" />
+  <path d="M 580 240 L 635 240" class="line-dashed" marker-end="url(#arrow)" />
+  <path d="M 580 240 C 610 240, 610 345, 635 345" class="line-dashed" marker-end="url(#arrow)" />
+
+  <text x="840" y="460" class="text-subtitle">05 / PROCESSING</text>
+
+  <rect x="840" y="205" width="140" height="70" class="box" />
+  <rect x="840" y="205" width="140" height="25" class="box-filled" />
+  <text x="850" y="222" class="text-title text-white">DATABRICKS</text>
+  <text x="850" y="255" class="text-body">Apache Spark</text>
+
+  <path d="M 780 135 C 810 135, 810 240, 835 240" class="line-dashed" marker-end="url(#arrow)" />
+  <path d="M 780 240 L 835 240" class="line-dashed" marker-end="url(#arrow)" />
+  <path d="M 780 345 C 810 345, 810 240, 835 240" class="line-dashed" marker-end="url(#arrow)" />
+
+  <text x="1040" y="460" class="text-subtitle">06 / SERVING</text>
+
+  <rect x="1040" y="160" width="120" height="160" class="box" />
+  <rect x="1040" y="160" width="120" height="25" class="box-filled" />
+  <text x="1050" y="177" class="text-title text-white">POWER BI</text>
+  
+  <rect x="1055" y="200" width="90" height="50" class="box-light" />
+  <rect x="1055" y="260" width="40" height="40" class="box-light" />
+  <rect x="1105" y="260" width="40" height="40" class="box-light" />
+  <text x="1055" y="315" class="text-accent">DATA-DRIVEN DECISIONS</text>
+
+  <path d="M 980 240 L 1035 240" class="line-dashed" marker-end="url(#arrow)" />
+
+</svg>

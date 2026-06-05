@@ -25,6 +25,3 @@ yarn-error.log*
 # Environment variables (Always good practice to include)
 .env
 .env.local
-#images and dashboard folders (since they are already included in the HTML and not needed in the repo)
-images/
-dashboard/  
