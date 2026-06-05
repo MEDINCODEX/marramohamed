@@ -41,10 +41,18 @@ The portfolio prominently features a dynamic, reverse-scrolling marquee highligh
 - **Academic Foundations:** Ibn Zohr University, ESCAM, UM6P, Africa Business School
 
 ---
+## 📬 Let's Talk Data
+Ready to build robust pipelines or modernize your data ecosystem?
+
+Email: Send a direct inquiry via Gmail " (https://mail.google.com/mail/?view=cm&fs=1&to=marramohamed7@gmail.com&su=Job Inquiry - Data Analytics" target="_blank" class="footer-link) "
+
+
+LinkedIn: Connect with me"(https://www.linkedin.com/in/marra-mohamed/)" 
 
 ## 🚀 Running Locally
 
-Because this architecture is fully static and relies on native browser capabilities, local setup requires zero configuration or package managers.
+Because this architecture is fully static and relies on native browser capabilities, 
+local setup requires zero configuration or package managers.
 
 1. Clone the repository:
 ```bash
@@ -53,5 +61,5 @@ Navigate into the directory:
 
 ```Bash
    cd marramohamed
-Open index.html in your preferred browser, or use a tool like VS Code Live Server for hot-reloading.
+'''Open index.html in your preferred browser, or use a tool like VS Code Live Server for hot-reloading.
 
