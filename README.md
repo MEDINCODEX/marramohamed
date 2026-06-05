@@ -2,9 +2,8 @@
 
 > A high-performance, brutalist web portfolio showcasing scalable data architecture, automated workflows, and strategic business intelligence.
 
-[![Live Demo](https://img.shields.io/badge/Live_Site-View_Portfolio-050505?style=for-the-badge&logo=github)](https://[username].github.io)
-[![Status](https://img.shields.io/badge/Status-Available_for_Relocation-success?style=for-the-badge)](#)
-
+[![Live Demo](https://img.shields.io/badge/Live_Site-View_Portfolio-050505?style=for-the-badge&logo=github)](https://medincodex.github.io/marramohamed/)
+[![Status](https://img.shields.io/badge/Status-Available_for_Relocation-success?style=for-the-badge)](https://mail.google.com/mail/?view=cm&fs=1&to=marramohamed7@gmail.com)
 ## 🏗️ The Architecture
 This repository contains the front-end source code for my professional portfolio. Designed with a strict minimalist and brutalist aesthetic, it emphasizes high contrast, precision, and performance without heavy frameworks. 
 
@@ -49,7 +48,7 @@ Because this architecture is fully static and relies on native browser capabilit
 
 1. Clone the repository:
 ```bash
-   git clone [https://github.com/yourusername/your-repo-name.git](https://github.com/yourusername/your-repo-name.git)
+   git clone [(https://github.com/MEDINCODEX/marramohamed.git)][(https://github.com/MEDINCODEX/marramohamed.git)]
 Navigate into the directory:
 
 Bash
@@ -59,6 +58,7 @@ Open index.html in your preferred browser, or use a tool like VS Code Live Serve
 📬 Let's Talk Data
 Ready to build robust pipelines or modernize your data ecosystem?
 
-Email: Send a direct inquiry via Gmail
+Email: Send a direct inquiry via Gmail " (https://mail.google.com/mail/?view=cm&fs=1&to=marramohamed7@gmail.com&su=Job Inquiry - Data Analytics" target="_blank" class="footer-link) "
 
-LinkedIn: Connect with me"# marramohamed.github.io" 
+
+LinkedIn: Connect with me"(https://www.linkedin.com/in/marra-mohamed/)" 
